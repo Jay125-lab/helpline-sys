@@ -1,0 +1,17 @@
+h2{
+    font-size:30px;
+    align-items:centre;
+
+}
+h1{
+    font-size:30px;
+    align-items:centre;
+
+}
+#container{
+    display:flex;
+    align-items:centre;
+}
+#container img{
+    margin-right:20px;
+}

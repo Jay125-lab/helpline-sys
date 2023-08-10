@@ -1,0 +1,22 @@
+
+.button{
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background:grey;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow:hidden;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+
+.button:active{
+    background: darkgrey;
+}
+

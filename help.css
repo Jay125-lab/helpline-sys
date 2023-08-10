@@ -1,0 +1,78 @@
+.bg-section{
+    background-color: darksalmon;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 36px;
+    margin:auto;
+    width:1024px;
+
+}
+
+.button{
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background:grey;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow:hidden;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+  .button:hover {
+    background: darkgrey;
+    
+}
+.button:active{
+    background: darkgrey;
+}
+.button_ _ text,
+.button_ _icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    height: 100%;
+}
+.button_ _icon{
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+h2{
+    font-size:30px;
+    align-items:centre;
+
+}
+#container{
+    display:flex;
+    align-items:centre;
+}
+#container img{
+    margin-right:20px;
+}
+
+.intro {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .intro img {vertical-align: middle;}
+  
+  .intro .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  * {
+    box-sizing: border-box;
+  }
